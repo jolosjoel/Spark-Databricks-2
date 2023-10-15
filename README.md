@@ -46,11 +46,11 @@ Se buscaron valores inexistentes o anómalos. Se encontraron valores negativos e
 
 ## 5. Operaciones Join
 
-Se realizaron operaciones Join entre las tablas para obtener información en conjunto de todas las fuentes de datos y conocer la información por tiendas y años de venta.
+Se realizaron operaciones Join entre las tablas para obtener información en conjunto de todas las fuentes de datos y conocer la información por tienda y ventas.
 
 - **Join 1:** Stores con Sales.
 - **Join 2:** Stores con features.
-- **Join 3:** Sales
+- **Join 3:** Sales 
 
 
 ## 6. Agregaciones
