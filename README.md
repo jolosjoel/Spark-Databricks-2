@@ -50,27 +50,29 @@ Se realizaron operaciones Join entre las tablas para obtener información en con
 
 - **Join 1:** Stores con Sales.
 - **Join 2:** Stores con features.
-- **Join 3:** Sales 
+- **Join 3:** Sales con features
 
 
 ## 6. Agregaciones
 
-Se ha realizado una agregación
-
-![image-10](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/5ab8c149-9a53-46aa-b2bc-4e02e5cd02c1)
-
-Esto puede ser otro
+Se obtiene la suma del total de las ventas del periodo analizado y el promedio de las ventas semanales en el periodo analizado:
 
 ![image-12](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/5c971518-2f49-42e2-aa4d-dcdd10ea2cf4)
 
+
+Se crea vista gráfica para conocer por tienda y departamento la veta semanal, obteniendo que el departamento 2 de la tienda 12 es la que más venta semanal tiene.
+
+![image-10](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/5ab8c149-9a53-46aa-b2bc-4e02e5cd02c1)
+![image](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/8d526287-bc75-4924-adb9-2a5a851f2af4)
+
 ## 7. Agrupaciones
+
+Se genera vista gráfica para conocer el fuel_price por fecha, obteniendo que el mayor fuel_price fue en abril del 2012.
+
+![image-11](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/018962ab-7a0f-4f63-9089-d6d3fa5cce68)
 
 Se obtiene información promedio de la temperatura por cada año para realizar un análisis y conocer el impacto en la venta de combustible y su oscilación a lo largo de los años.
 
-**Esto es otro:**
-
 ![image-13](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/4fb6ca9a-8f40-4461-a115-f07310416ebe)
 
-**Y esto también:**
 
-![image-11](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/018962ab-7a0f-4f63-9089-d6d3fa5cce68)
