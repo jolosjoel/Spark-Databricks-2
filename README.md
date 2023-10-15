@@ -48,9 +48,9 @@ Se buscaron valores inexistentes o anómalos. Se encontraron valores negativos e
 
 Se realizaron operaciones Join entre las tablas para obtener información en conjunto de todas las fuentes de datos y conocer la información por tiendas y años de venta.
 
-**- Join 1:** Stores con Sales. 
-**- Join 2:** Stores con features. 
-**- Join 3:** Sales con la base creada donde es posible obtener el año de la fecha.
+- **Join 1:** Stores con Sales.
+- **Join 2:** Stores con features.
+- **Join 3:** Sales
 
 
 ## 6. Agregaciones
