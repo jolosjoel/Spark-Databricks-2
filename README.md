@@ -40,7 +40,7 @@ La principal variable categórica encontrada se refiere a los tipos de tiendas (
 
 ## 4. Valores Anómalos
 
-Se buscaron valores inexistentes o anómalos. Se encontraron valores negativos en las variables MarkDown1, MarkDown2, MarkDown3, MarkDown5 y Weekly_Sales.
+Se buscaron valores inexistentes o anómalos. Se encontraron valores negativos en las variables MarkDown1, MarkDown2, MarkDown3 y MarkDown5.
 
 ![image-9](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/6766f1d7-5104-43fc-865c-e18f38707147)
 
