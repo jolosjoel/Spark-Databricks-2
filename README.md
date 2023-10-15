@@ -6,7 +6,7 @@ En este proyecto, se creó un clúster en Databricks para cargar tres bases de d
 
 ## Creación del Clúster en Databricks
 
-Primero, se crea un clúster en Databricks para poder cargar las tres bases de datos y manipularlas.
+En primer lugar, se creó un clúster en Databricks para poder cargar las tres bases de datos y manipularlas.
 
 ![image](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/121b5f97-da99-4764-9092-250a94f541da)
 ![image-1](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/c5e186ee-9d1b-45f1-bb31-fd86856c024e)
@@ -16,17 +16,17 @@ Primero, se crea un clúster en Databricks para poder cargar las tres bases de d
 ![image-3](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/692c9b56-9047-4c01-9423-7cfb0d992c69)
 ![image-2](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/a9e1b256-7799-4159-95b5-66e2586228c2)
 
-Una vez que tenemos las bases de datos en Databricks, se procedió a manipular las bases de datos y responder a las siguientes actividades:
+Una vez que las bases de datos se encontraban en Databricks, se procedió a manipularlas y responder a las siguientes actividades:
 
 ## 1. Conteo de Filas
 
-Se contó el número de filas de cada tabla.
+Se realizó el conteo del número de filas de cada tabla.
 
 ![image-4](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/f817fa76-2158-4945-94e6-85e6bcbd99ce)
 
 ## 2. Estudio de Rangos de Variables Numéricas
 
-Se estudió el rango (máximo y mínimo) de cada variable numérica.
+Se llevó a cabo el estudio del rango (máximo y mínimo) de cada variable numérica.
 
 ![image-5](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/73c7b750-9e17-43a0-b6e0-7951955f03a9)
 ![image-6](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/f580b73f-0ff4-43a2-9ca7-19952f401c77)
@@ -52,27 +52,24 @@ Se realizaron operaciones Join entre las tablas para obtener información en con
 - **Join 2:** Stores con features.
 - **Join 3:** Sales con features
 
-
 ## 6. Agregaciones
 
-Se obtiene la suma del total de las ventas del periodo analizado y el promedio de las ventas semanales en el periodo analizado:
+Se obtuvo la suma total de las ventas del período analizado y el promedio de las ventas semanales en el mismo período.
 
 ![image-12](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/5c971518-2f49-42e2-aa4d-dcdd10ea2cf4)
 
-
-Se crea vista gráfica para conocer por tienda y departamento la veta semanal, obteniendo que el departamento 2 de la tienda 12 es la que más venta semanal tiene.
+Además, se creó una vista gráfica para conocer, por tienda y departamento, las ventas semanales. Se pudo observar que el departamento 2 de la tienda 12 tuvo las ventas semanales más altas.
 
 ![image-10](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/5ab8c149-9a53-46aa-b2bc-4e02e5cd02c1)
 ![image](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/8d526287-bc75-4924-adb9-2a5a851f2af4)
 
 ## 7. Agrupaciones
 
-Se genera vista gráfica para conocer el fuel_price por fecha, obteniendo que el mayor fuel_price fue en abril del 2012.
+Se generó una vista gráfica para conocer el precio del combustible por fecha, lo que permitió identificar que el precio del combustible fue más alto en abril de 2012.
 
 ![image-11](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/018962ab-7a0f-4f63-9089-d6d3fa5cce68)
 
-Se obtiene información promedio de la temperatura por cada año para realizar un análisis y conocer el impacto en la venta de combustible y su oscilación a lo largo de los años.
+También se obtuvo información promedio de la temperatura por año para realizar un análisis y conocer el impacto en la venta de combustible y su oscilación a lo largo de los años.
 
-![image-13](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/4fb6ca9a-8f40-4461-a115-f07310416ebe)
-
+![image-13](https://github.com/jolosjoel/Spark-Databricks-2/assets/45809759/ca455da3-052d-451f-b6f0-a843313578d4)
 
